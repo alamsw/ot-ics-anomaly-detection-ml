@@ -35,6 +35,11 @@ Data preprocessing and dataset conversion from NSL-KDD format were performed usi
   - High recall for normal traffic (~80%)
   - Moderate detection of anomalous activity (~40%)
 
+## 📁 Outputs
+
+- `model.pkl` → trained anomaly detection model  
+- `results.csv` → prediction results with anomaly scores for each sample
+  
 ## ⚠️ Challenges
 
 - Imbalanced dataset significantly impacts anomaly detection performance
