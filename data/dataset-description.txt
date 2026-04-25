@@ -12,6 +12,11 @@ For this project we only use two files
 KDDTrain+.txt - as training data
 KDDTest+.txt - as test data
 
+However i have converted them in csv for better understanding
+
+nsl_kdd_train.csv for training the model
+nsl_kdd_test.csv for testing the model
+
 This dataset can also be integrated directly in the notebook from Kaggle Hub via:
 
 import kagglehub
