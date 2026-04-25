@@ -7,7 +7,10 @@ The number of selected records from each difficultylevel group is inversely prop
 
 The number of records in the train and test sets are reasonable, which makes it affordable to run the experiments on the complete set without the need to randomly select a small portion. Consequently, evaluation results of different research works will be consistent and comparable.
 
-Data is originally from Kaggle by M Hassan Zaib 
+For this project we only use two files
+
+KDDTrain+.txt - as training data
+KDDTest+.txt - as test data
 
 This dataset can also be integrated directly in the notebook from Kaggle Hub via:
 
