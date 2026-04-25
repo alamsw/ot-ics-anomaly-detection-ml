@@ -23,10 +23,24 @@ Data preprocessing and dataset conversion from NSL-KDD format were performed usi
 - Scikit-learn
 - Matplotlib
 
-## 📈 Results
-- Precision: XX%
-- Recall: XX%
-- F1-score: XX%
+## 📊 Results & Observations
+
+- Dataset is highly imbalanced (~99% attack traffic)
+- Isolation Forest achieved:
+  - High recall for normal traffic (~80%)
+  - Moderate detection of anomalous activity (~40%)
+
+## ⚠️ Challenges
+
+- Imbalanced dataset significantly impacts anomaly detection performance
+- Model sensitivity depends on contamination parameter
+
+## 🔧 Improvements
+
+- Tuned contamination parameter to improve anomaly detection
+- Future work includes:
+  - Autoencoder-based detection
+  - Data balancing techniques
 
 ## 🔐 Relevance to OT Security
 This project simulates anomaly detection mechanisms used in industrial cybersecurity platforms (e.g., OT network monitoring and threat detection systems).
