@@ -39,6 +39,14 @@ Data preprocessing and dataset conversion from NSL-KDD format were performed usi
 
 - `model.pkl` → trained anomaly detection model  
 - `results.csv` → prediction results with anomaly scores for each sample
+
+## 📊 Visualizations
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### Anomaly Score Distribution
+![Anomaly Scores](outputs/anomaly_scores.png)
   
 ## ⚠️ Challenges
 
