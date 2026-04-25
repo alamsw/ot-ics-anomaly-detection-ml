@@ -14,6 +14,9 @@ Detect abnormal network behavior using unsupervised learning techniques, aligned
 ## 📊 Dataset
 NSL-KDD dataset (network intrusion detection benchmark)
 
+## Data Preprocessing
+Data preprocessing and dataset conversion from NSL-KDD format were performed using Jupyter Notebook (see notebooks folder).
+
 ## ⚙️ Technologies Used
 - Python
 - Pandas, NumPy
