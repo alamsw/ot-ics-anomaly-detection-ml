@@ -23,6 +23,11 @@ Data preprocessing and dataset conversion from NSL-KDD format were performed usi
 - Scikit-learn
 - Matplotlib
 
+## 📓 Notebooks
+
+- `01_data_exploration.ipynb` → data analysis and preprocessing
+- `02_model_execution.ipynb` → model training and evaluation workflow
+  
 ## 📊 Results & Observations
 
 - Dataset is highly imbalanced (~99% attack traffic)
